@@ -1,0 +1,146 @@
+.chatBodyContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.chatBodyInner {
+    display: flex;
+    flex-direction: row;
+}
+.sideInfoChat {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.mainChat {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0 10px 10px 10px;
+    height: 655px;
+    width: 550px;
+}
+
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 7px 0 0 0;
+    list-style-type: none;
+    height: 85%;
+    overflow-y: scroll;
+}
+.post {
+    background-color: #b0d283;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post--left {
+    background-color: #3f6baf;
+    align-self: flex-end;
+    color: white;
+}
+
+.post--right {
+    background-color: #eeeeee;
+    align-self: flex-start;
+}
+
+.chatHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #bdbdb6;
+    font-size: 10px;
+    font-weight: 600;
+}
+.chatText {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.activity {
+    margin: 0px 0px 0px 8px;
+    padding: 0;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+}
+#msgContainer {
+    border-radius: 15px;
+    width: 75%;
+    height: 48px;
+    padding: 0 10px;
+    border: none;
+    background-color: #e4e8e5;
+    color: black;
+}
+#txtName {
+    border-radius: 8px;
+    height: 30px;
+    width: 30%;
+    color: black;
+    border: none;
+    background-color: #e4e8e5;
+    padding-left: 10px;
+}
+#selRoom {
+    border-radius: 5px;
+    height: 30px;
+    width: 25%;
+    border: none;
+    color: black;
+    background-color: #e4e8e5;
+    cursor: pointer;
+    padding: 2px 10px;
+}
+#join {
+    border-radius: 8px;
+    height: 30px;
+    width: 15%;
+    background-color: #14bb1f;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+#btnSend {
+    height: 48px;
+    width: 15%;
+    background-color: #1456bb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.leaveChatRoom {
+    display: flex;
+    justify-content: end;
+}
+#btnLeaveChat {
+    height: 22px;
+    width: 12%;
+    background-color: #ad3215;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px 0 0 0;
+}
+.form-2 {
+    position: relative;
+    top: 15px;
+}
